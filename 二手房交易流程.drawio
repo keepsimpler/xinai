@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T13:09:46.574Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="kD90VIk2tHajMW1HP4YU" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-30T13:16:42.209Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="D9fSBncCIUoXe3Aqtb9B" version="14.2.9" type="github">
   <diagram id="eCgH1aqY1Uuq_Gv72Vav" name="Page-1">
     <mxGraphModel dx="930" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
         <mxCell id="HF9s1pa_gHyb1Hk8taV--12" value="买家支付定金" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mIpBYpTtvKyWABxg0NEK-9">
           <mxGeometry x="52.5" y="400" width="135" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HF9s1pa_gHyb1Hk8taV--19" value="买家支付首付款 差额款" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mIpBYpTtvKyWABxg0NEK-9">
+        <mxCell id="HF9s1pa_gHyb1Hk8taV--19" value="买家支付首付款 差额款（差额款？）" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mIpBYpTtvKyWABxg0NEK-9">
           <mxGeometry x="52.5" y="490" width="135" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HF9s1pa_gHyb1Hk8taV--20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="mIpBYpTtvKyWABxg0NEK-9" source="HF9s1pa_gHyb1Hk8taV--12" target="HF9s1pa_gHyb1Hk8taV--19">
@@ -85,8 +85,16 @@
             <mxPoint x="287.5" y="509.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HF9s1pa_gHyb1Hk8taV--36" value="买家确认过户完成&lt;br&gt;并" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mIpBYpTtvKyWABxg0NEK-9">
+        <mxCell id="HF9s1pa_gHyb1Hk8taV--36" value="买家确认过户完成&lt;br&gt;并释放首付款和差额款" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mIpBYpTtvKyWABxg0NEK-9">
           <mxGeometry x="52.5" y="740" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HF9s1pa_gHyb1Hk8taV--40" value="买家拿房产证&lt;br&gt;申请抵押贷款" style="shape=mxgraph.bpmn.manual_task;html=1;outlineConnect=0;dashed=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="mIpBYpTtvKyWABxg0NEK-9">
+          <mxGeometry x="60" y="860" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HF9s1pa_gHyb1Hk8taV--39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="mIpBYpTtvKyWABxg0NEK-9" source="HF9s1pa_gHyb1Hk8taV--36" target="HF9s1pa_gHyb1Hk8taV--40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="860" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mIpBYpTtvKyWABxg0NEK-10" value="卖家" style="swimlane;html=1;startSize=20;" parent="mIpBYpTtvKyWABxg0NEK-7" vertex="1">
           <mxGeometry x="480" y="20" width="460" height="1090" as="geometry" />
